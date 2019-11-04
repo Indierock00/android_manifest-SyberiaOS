@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Markw-specific Trees -->
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="Indierock00" revision="Do-not-Touch" />
+ <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_msm8953" remote="Indierock00" revision="nosgoth" /> 
+ <project path="vendor/xiaomi" name="android_vendor_xiaomi" remote="SonicBSV" revision="Pie" />
+
+   <!-- SyberiaOS patch -->
+ <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" remote="Indierock00" revision="10.0-caf-8996" />
+ <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" remote="Indierock00" revision="10.0-caf-8996" />
+ <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" remote="Indierock00" revision="10.0-caf-8996" />
+
+
+  <!-- remotes -->
+ <remote name="Indierock00"
+	 fetch="https://github.com/Indierock00/" />
+ <remote name="SonicBSV"
+	 fetch="https://github.com/SonicBSV/" />
+
+
+</manifest>
